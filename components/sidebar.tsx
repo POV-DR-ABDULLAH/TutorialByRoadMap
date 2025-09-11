@@ -25,6 +25,12 @@ export default function Sidebar({ isOpen, onClose, onCourseSelect, currentCourse
       icon: <BookOpen className="w-5 h-5" />,
       description: "Belajar dasar-dasar HTML dan struktur web",
     },
+    {
+      id: "css",
+      name: "CSS",
+      icon: <BookOpen className="w-5 h-5" />,
+      description: "Belajar dasar-dasar CSS dan struktur web",
+    },
   ]
 
   return (

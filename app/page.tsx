@@ -19,6 +19,13 @@ import PengenalanHtml from "@/components/html/network-architecture"
 import HtmlDataFlowDiagram from "@/components/html/PengenalanHtml"
 import HtmlWebBrowserDiagram from "@/components/html/web-browser-diagram"
 
+// CSS course components
+import PengenalanCss from "@/components/css/What"
+import IdClass from "@/components/css/IdClass"
+import Selector from "@/components/css/Selector"
+import SelectorAtribute from "@/components/css/SelectorAtribute"
+import Text from "@/components/css/Text"
+
 const courses = {
   internet: [
     {
@@ -69,23 +76,33 @@ const courses = {
       component: <HtmlWebBrowserDiagram />,
     },
   ],
-  // css: [
-  //   {
-  //     id: 1,
-  //     title: "CSS Network Architecture",
-  //     component: <CssNetworkArchitecture />,
-  //   },
-  //   {
-  //     id: 2,
-  //     title: "CSS Data Flow",
-  //     component: <CssDataFlowDiagram />,
-  //   },
-  //   {
-  //     id: 3,
-  //     title: "CSS Browser Rendering",
-  //     component: <CssWebBrowserDiagram />,
-  //   },
-  // ],
+  css: [
+    {
+      id: 1,
+      title: "CSS Network Architecture",
+      component: <PengenalanCss />,
+    },
+    {
+      id: 2,
+      title: "Id, Class & multiple class",
+      component: <IdClass />,
+    },
+    {
+      id: 3,
+      title: "Selector CSS",
+      component: <Selector />,
+    },
+    {
+      id: 4,
+      title: "Selector Atribute CSS",
+      component: <SelectorAtribute />,
+    },
+    {
+      id: 5,
+      title: "Text CSS",
+      component: <Text />,
+    },
+  ],
   // js: [
   //   {
   //     id: 1,
