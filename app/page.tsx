@@ -20,11 +20,11 @@ import HtmlDataFlowDiagram from "@/components/html/PengenalanHtml"
 import HtmlWebBrowserDiagram from "@/components/html/web-browser-diagram"
 
 // CSS course components
-import PengenalanCss from "@/components/css/What"
-import IdClass from "@/components/css/IdClass"
-import Selector from "@/components/css/Selector"
-import SelectorAtribute from "@/components/css/SelectorAtribute"
-import Text from "@/components/css/Text"
+import PengenalanCss from "@/components/Css/What"
+import IdClass from "@/components/Css/IdClass"
+import Selector from "@/components/Css/Selector"
+import SelectorAtribute from "@/components/Css/SelectorAtribute"
+import Text from "@/components/Css/Text"
 
 const courses = {
   internet: [
