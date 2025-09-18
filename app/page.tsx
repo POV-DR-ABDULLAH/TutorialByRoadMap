@@ -25,6 +25,9 @@ import IdClass from "@/components/Css/IdClass"
 import Selector from "@/components/Css/Selector"
 import SelectorAtribute from "@/components/Css/SelectorAtribute"
 import Text from "@/components/Css/Text"
+import Backround from "@/components/Css/Backround-Image"
+import Border from "@/components/Css/Border&Outline"
+import MaxMin from "@/components/Css/MaxMin"
 
 const courses = {
   internet: [
@@ -101,6 +104,21 @@ const courses = {
       id: 5,
       title: "Text CSS",
       component: <Text />,
+    },
+    {
+      id: 6,
+      title: "Backround - Backround Image",
+      component: <Backround />,
+    },
+    {
+      id: 5,
+      title: "Max & Min",
+      component: <Border />,
+    },
+    {
+      id: 5,
+      title: "Border & Outline",
+      component: <MaxMin />,
     },
   ],
   // js: [
